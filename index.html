@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie and TV Recommendation Test Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <p class="eyebrow">Personal Test Project</p>
+      <h1>Movie and TV Recommendation Explorer</h1>
+      <p class="lede">
+        A lightweight prototype for testing movie and series discovery flows in a local development environment.
+      </p>
+    </section>
+
+    <section class="controls">
+      <label for="type-filter">Filter</label>
+      <select id="type-filter">
+        <option value="all">All</option>
+        <option value="movie">Movies</option>
+        <option value="series">Series</option>
+      </select>
+    </section>
+
+    <section class="grid" id="results"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
